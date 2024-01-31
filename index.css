@@ -10,8 +10,9 @@ header{
     /* border: 2px solid black; */
     padding: 0 46px;
     background-image: url("/miha-bakery.png");
-    background-size: cover;
-    color: black;
+    background-size: 200%;
+    background-position: right;
+    color: white;
 
 }
 h1{
