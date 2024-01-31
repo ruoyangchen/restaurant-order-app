@@ -81,7 +81,7 @@ h2{
 .order-btn{
     width: 508px;
     height: 60px;
-    background-color: #16DB99;
+    background-color: #393333;
     border: none;
     color: white;
 }
@@ -143,7 +143,7 @@ input, .pay-btn{
 }
 .pay-btn{
     border: none;
-    background-color: #16DB99;
+    background-color: #393333;
     font-weight: bold;
     color: white;
 }
@@ -168,7 +168,7 @@ input, .pay-btn{
 }
 .complete-msg{
     color: #065F46;
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     padding: 0 59px;
    
