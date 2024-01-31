@@ -1,0 +1,173 @@
+body {
+    margin: auto;
+    width: 600px;
+    height: 1161px;
+    /* border: 2px solid black;  */
+} 
+
+header{
+    height: 167px;
+    /* border: 2px solid black; */
+    padding: 0 46px;
+    background-image: url("/miha-bakery.png");
+    background-size: cover;
+    color: black;
+
+}
+h1{
+    font-size: 39px;
+    margin-top: 0px;
+    margin-bottom: 0px;   
+    padding-top: 46px;
+}
+h2{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* main */
+
+.menu-item{
+    width: 508px;
+    height: 140px;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    column-gap: 30px;  
+}
+.item-text{
+    margin-right: auto;
+}
+.item-pic, h3{
+    margin-top: 5px;
+    padding: 0;
+}
+.item-pic{
+    font-size: 79px;
+}
+
+
+.add-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    background-color: white;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4px;
+    margin-top: 5px;
+}
+
+/* checkout */
+.checkout-section{
+    width: 508px;
+    margin: auto;
+    font-size: 28px;
+    
+}
+
+.order-btn{
+    width: 508px;
+    height: 60px;
+    background-color: #16DB99;
+    border: none;
+    color: white;
+}
+
+.line-item, .total-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.price{
+    font-size: 20px;
+}
+.remove-btn{
+    margin-right: auto;
+    font-size: 12px;
+    padding: 0;
+    background-color: white;
+    border: none;
+    color: #BBBBBB;
+}
+
+
+
+/* payment */
+.payment-modal{
+    width: 524px;
+    height: 542px;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    
+}
+
+form{
+    position: absolute;
+    top:20px;
+    left: 20px;
+    padding: 0;
+   
+    
+}
+input, .pay-btn{
+    width: 476px;
+    height: 71px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;/* solves btn size issue */ 
+    margin-bottom: 10px;
+    font-size: 20px;
+  
+}
+.pay-btn{
+    border: none;
+    background-color: #16DB99;
+    font-weight: bold;
+    color: white;
+}
+.form-title{
+    margin-left: 50px;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* complete state */
+.order-complete{
+    width:504px;
+    height: 120px;
+    background-color: #ECFDF5;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.complete-msg{
+    color: #065F46;
+    font-size: 32px;
+    text-align: center;
+    padding: 0 59px;
+   
+}
+
+.hidden{
+    display: none; /* toggle */
+}
