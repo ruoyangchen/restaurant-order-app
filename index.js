@@ -9,7 +9,7 @@ function renderMenu(){
                         <p class="item-pic">${item.emoji}</p>
                         <div class="item-text">
                             <h3>${item.name}</h3>
-                            <p class="item-info">${item.ingredients}</p>
+                            <p class="item-info">${item.info.join(", ")}</p>
                             <p class="item-price">$${item.price}</p>
                         </div>
                     <button class="add-btn" id="add-btn" data-add="${item.id}">+</button>
@@ -55,11 +55,16 @@ document.addEventListener('click', function(e){
             console.log("nothing here yet")
         }
     } else if (e.target.classList.contains('pay-btn')){
-        e.preventDefault()
-        hidePaymentModal()
-        const customerName = document.getElementById("name").value
-        console.log(customerName)
-        showOrderMsg(customerName)
+        const paymentForm = document.getElementById("payment-form")
+        const isValid = paymentForm.checkValidity()
+        if(isValid){
+            e.preventDefault()
+            hidePaymentModal()
+            const customerName = document.getElementById("name").value
+            console.log(customerName)
+            showOrderMsg(customerName)
+        }
+        
     }
 })
 

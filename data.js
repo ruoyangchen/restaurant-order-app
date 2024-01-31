@@ -1,21 +1,21 @@
 export const menuArray = [
     {
         name: "Shortcake",
-        ingredients: ["pepperoni", "mushrom", "mozarella"],
+        info: ["strawberry", "blueberry", "raspberry"],
         id: 0,
         price: 14,
         emoji: "🍰"
     },
     {
         name: "Cookie",
-        ingredients: ["beef", "cheese", "lettuce"],
+        info: ["chocolate chip", "white chocolate", "oatmeal"],
         price: 12,
         emoji: "🍪",
         id: 1
     },
         {
         name: "Cupcake",
-        ingredients: ["grain, hops, yeast, water"],
+        info: ["cream", "chocolate", "redvelvet"],
         price: 12,
         emoji: "🧁",
         id: 2
