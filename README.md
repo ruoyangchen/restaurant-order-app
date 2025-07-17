@@ -1,1 +1,1 @@
-javascript web app exercise
+vanilla javascript web app exercise
